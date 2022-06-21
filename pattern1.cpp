@@ -20,3 +20,10 @@ ch++;
     cout<<endl;
     }
 }
+//output if input 4
+
+D
+CD
+BCD
+ABCD
+
