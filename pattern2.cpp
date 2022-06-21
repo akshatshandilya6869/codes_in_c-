@@ -3,26 +3,31 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"enter the no of rows";
+    cout<<"enter the no of rows:";
     cin>>n;
-  char ch='A';
+    int c=1;
     for(int i=1;i<=n;i++)
-   {ch='A'+n-i;
-        for (int j=1;j<=i;j++)
+    {
+        for(int s=n-i;s>=1;s--)
         {
-          
-           cout<<ch;
-ch++;
-           
+            cout<<" ";
+            
         }
-                 
-
-    cout<<endl;
-    }
+        for(int j=1;j<=i;j++)
+        {
+            cout<< j;
+            
+        
+        }
+        for(int j=i-1;j;j--)
+        {
+            cout<<j;
+        }
+   cout<<endl; }
 }
-//pattern #include<iostream>
-
-   *
-  ***
- *****
-*******
+//output
+enter the no of rows:4
+   1
+  121
+ 12321
+1234321//
